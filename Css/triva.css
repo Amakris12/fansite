@@ -1,0 +1,43 @@
+/*
+body{
+    background-color: black;
+}
+h1{
+    color: red;
+    border: red 2rem groove;
+    text-align: center;
+    width: 95%; 
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 200%;
+}
+*/
+p{
+    color: red;
+    border: red .9rem groove;
+    text-align: center;
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150%;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}/*
+a{
+    text-align: center;
+    color: red;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 150%;
+}
+
+
+*/
+.dark-mode {
+    background-color: black;
+    color: white;
+    border-color: green;
+  }

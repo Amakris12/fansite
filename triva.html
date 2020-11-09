@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="Images/Logo.png">
+    <link rel="stylesheet" href="css/triva.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triva</title>
+</head>
+<body>
+    <h2 style="text-align: center; border: groove 2rem red; font-size: 200%;">Triva Time</h2>
+    <div style='margin-left: auto; margin-right: auto; width: 95%;'>
+        <table style="position: relative; width: 100%; border: red 1rem groove; border-collapse: collapse;">
+           <tr>
+          <td style="font-size: 200%; text-align: center;"><a style="color: red;" href="index.html">Homepage</a></td>
+          <td style="font-size: 200%; text-align: center;"><a style="color: red;"style="color: white;" href="triva.html">Triva Fun</a></td>
+          <td style="font-size: 200%; text-align: center;"><a style="color: red;" href="movie.html"> Movie & Tv </a></td>
+        </tr>
+      </table>
+      </div>
+    <aside><img style="position: relative; float: left;left: 15pt; border: groove red 1rem;top: 15pt;" src="images/Ani.gif" width="300" height="200"></aside>
+    <aside><img style="position: relative; float: right;right: 15pt; border: red 1rem groove; top: 15pt;" src="images/animated.gif" width="300" height="200"></aside>
+    <p>Clicking this link will take you to the quiz</p>
+    <p>Are you ready?</p>
+    <p><a href="joke.html">Start Quiz</a></p>
+    <img src="images/quiz.gif" width="1000" height="300">
+    <button onclick="myFunction()">Toggle dark mode</button>
+    <script>
+function myFunction(){
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+    
+</body>
+</html>
